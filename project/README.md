@@ -20,7 +20,13 @@ root/
 ```
 Here is how to run the script:
 
-	python run project.py
+	python run project.py --image_path your_image_path --radius your_radius --saved_image_path your_saved_image_path --algo_type your_algo_type
+	
+For example: 
+
+	python3 project.py --image_path cow.jpg --r 0.03 --threshold 0.05 --saved_image_path result.png --algo_type 0
+	python3 project.py --image_path cow.jpg --r 0.03 --threshold 0.05 --saved_image_path result.png --algo_type 1
+
 
 ## Result
 |                Model        | Number of clusters | Time running | Image shape
